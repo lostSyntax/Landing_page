@@ -1,0 +1,23 @@
+body{
+    margin: 0;
+    
+}
+
+.header{
+    background-color: #1f2937;
+}
+
+.hero{
+    background-color: #1f2937;
+}
+
+.hero-text{
+    font-size: 3rem;
+    font-weight:bolder;
+    color: #F9FAF8;
+}
+
+.sec-text{
+    font-size: 1.125rem;
+    color: #E5E7EB;
+}
