@@ -1,23 +1,68 @@
 body{
     margin: 0;
+    display: flex;
+    flex-direction: column;
+    background-color: #E9E2D8;
     
 }
 
 .header{
-    background-color: #1f2937;
+    /* background-color: #F4EFEB; */
+    background-color: #E9E2D8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 100px;
+    border-radius: 0 0 40px 40px;
+    height: 60px;
+    gap: 50px;
+    
 }
 
+.logo{
+    height: 80%;
+    margin-right: auto;
+}
+
+.nav-i{
+    font-family: 'Playfair Display', serif;
+    text-decoration: none;
+    color: #141414;
+}
 .hero{
-    background-color: #1f2937;
+    padding: 0 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 90vh;
+    background-color: #E9E2D8;
 }
 
 .hero-text{
-    font-size: 3rem;
-    font-weight:bolder;
-    color: #F9FAF8;
+    font-family: 'Playfair Display', serif;
+    font-size: 4rem;
+    /* font-weight:bolder; */
+    color: #141414;
 }
 
 .sec-text{
-    font-size: 1.125rem;
-    color: #E5E7EB;
+    margin-top: 20px;
+    font-family: 'Satisfy', cursive;
+    font-size: 1.2rem;
+    color: #4d4d4d;
+}
+
+.himg{
+    font-family: 'Playfair Display', serif;
+    height: 650px;
+    margin-top: 40px;
+}
+
+.Hbutton{
+    background-color: #141414;
+    padding: 15px 32px;
+    color: #F4EFEB;
+    margin-top: 60px;
+    border-radius: 25px;
+    border: 0;
 }
