@@ -101,7 +101,7 @@ p{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    max-width: 100%;
+    /* max-width: 100%; */
 }
 
 .boxes h2{
@@ -146,3 +146,40 @@ p{
 /* NEW SECTION STARTS FROM HERE  */
 
 
+.contact{
+    background-color: #1D1C17;
+    max-width: 100%;
+    min-height: 46vh;
+    color: #F7F7F7;
+}
+
+.contact .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.contact h1{
+    font-size: 3rem;
+    margin-top: 60px;
+    /* min-width: 100%; */
+}
+
+.contact button{
+    background-color: #F7F7F7;
+    padding: 15px 64px;
+    color: #1D1C17;
+    margin-top: 60px;
+    border-radius: 25px;
+    border: 0;
+    margin-right: 30px;
+}
+
+.foot{
+    background-color: #1D1C17;
+    color: #F7F7F7;
+    height: 30px;
+    text-align: center;
+}
