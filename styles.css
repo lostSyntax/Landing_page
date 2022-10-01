@@ -87,7 +87,7 @@ h1{
 p{
     font-family: 'Satisfy', cursive;
     margin-top: 20px;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     color: #4d4d4d;
 }
 
@@ -113,7 +113,7 @@ p{
     border-radius: 25px;
 }
 
-.boxes h2{
+.boxes h2 , .testimonial h2{
     font-weight: 400;
     font-size:xx-large;
     padding: 20px 0 30px;
@@ -121,6 +121,25 @@ p{
 
 .box{
     text-align: center;
+}
+
+
+/* NEW SECTION STARTS FROM HERE  */
+
+
+.testimonial{
+    max-width: 100%;
+    background-color: #EFDCD4;
+    min-height: 50vh;
+    text-align: center;
+}
+
+.testimonial h3{
+    font-family: 'Satisfy', cursive;
+    font-weight: 400;
+    font-size: 1.5rem;
+    padding-top: 50px;
+    color: #4d4d4d;
 }
 
 
