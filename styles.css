@@ -90,3 +90,40 @@ p{
     font-size: 1.2rem;
     color: #4d4d4d;
 }
+
+/* NEW SECTION STARTS FROM HERE  */
+
+.boxes{
+    background-color: #E6E8E8;
+    min-height: 50vh;
+}
+.boxes .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 100%;
+}
+
+.boxes h2{
+    text-align: center;
+}
+
+.box .pics{
+    max-width: 170px;
+    border-radius: 25px;
+}
+
+.boxes h2{
+    font-weight: 400;
+    font-size:xx-large;
+    padding: 20px 0 30px;
+}
+
+.box{
+    text-align: center;
+}
+
+
+/* NEW SECTION STARTS FROM HERE  */
+
+
