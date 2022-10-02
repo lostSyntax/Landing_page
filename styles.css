@@ -12,6 +12,11 @@ body{
     /* background-color: #E9E2D8; */
 }
 
+button{
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+}
+
 .container{
     max-width: 1400px;
     margin: 0 auto;
@@ -71,6 +76,10 @@ ul{
     justify-content: space-between;
 }
 
+.header .container button:hover , .contact button:hover{
+    background-color: #f0b69d;
+    color: #141414;
+}
 .header .container button{
     background-color: #141414;
     padding: 15px 32px;
