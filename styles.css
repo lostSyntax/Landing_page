@@ -9,7 +9,7 @@ body{
     font-size: 16px;
     line-height: 1.5;
     color: #141414;
-    /* background-color: #E9E2D8; */
+    background-color: #E6E8E8;
 }
 
 button{
@@ -110,7 +110,7 @@ p{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    /* max-width: 100%; */
+    max-width: 100%;
 }
 
 .boxes h2{
@@ -191,4 +191,98 @@ p{
     color: #F7F7F7;
     height: 30px;
     text-align: center;
+}
+
+@media (max-width: 768px) {
+
+    .navbar{
+        height: 60px;
+    }
+
+    ul{
+        gap: 10px;
+    }
+
+    .navbar .logo{
+        font-size: medium;
+    }
+
+    .navbar a{
+        font-size: 12px;
+    }
+
+    .header{
+        min-height: 93vh;
+    }
+
+    .header h1{
+        font-size: 2.5rem;
+        line-height: 1.3;
+    }
+
+    .header video{
+        margin-top: 10px;
+        margin-bottom: 10px;
+        max-width: 300px;
+    }
+    .header .container{
+        flex-direction: column-reverse;
+        padding-top: 20px;
+        text-align: center;
+    }
+
+    .header .container button {
+        padding: 8px 16px; 
+        margin-top: 40px;
+    }
+
+    p{
+        font-size: 1rem;
+    }
+    
+    .boxes .container{
+        display: block;
+        text-align: center;
+    }
+
+    .box .pics{
+        max-width: 140px;
+    }
+
+    .boxes h2 , .testimonial h2{
+        font-size: x-large;
+    }
+
+    .box p{
+        margin: 5px 0 20px;
+    }
+
+    .testimonial h3{
+        padding-top: 0;
+        padding-bottom: 30px;
+        font-size: 1.2rem;
+    }
+
+    .contact .container{
+        flex-direction: column;
+        flex-wrap: nowrap;
+    
+    }
+
+    .contact h1{
+        font-size: 2.2rem;
+        margin-top: 30px;
+    }
+
+    .contact button{
+        padding: 8px 16px;
+        margin-right: 0;
+        margin: 60px 10px 0;
+    }
+
+    .foot{
+        font-size: 0.7rem;
+        height: 25px;
+    }
+   
 }
